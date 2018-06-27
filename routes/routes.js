@@ -250,11 +250,11 @@ let monitor_proxies = ['http://Soleplug:312468Bh@172.98.167.128:24794',
 					'http://Soleplug:312468Bh@172.98.167.54:24794',
 					'http://Soleplug:312468Bh@172.98.167.99:24794']
 
-let keywords = ['boot']
+let keywords = ['yeezy' , 'butter']
 
 //let product_url = 'https://yeezysupply.com/products/yeezy-500-super-moon-yellow-1'
-let product_url = 'https://yeezysupply.com/products/mens-desert-boot-in-thick-suede-mesh-and-nubuck-graphite'
-//let product_url = 'https://yeezysupply.com'
+//let product_url = 'https://yeezysupply.com/products/mens-desert-boot-in-thick-suede-mesh-and-nubuck-graphite'
+let product_url = 'https://yeezysupply.com'
 
 
 // FOR RESTOCK, PASTE THE VARS AND SET LAUNCH TO TRUE
@@ -275,9 +275,15 @@ var routes = function (app) {
 
   });
 
+  app.get("/test", function(req, res) {
+  	let test = {"39":"1351586840595","40":"1351586873363","41":"1351586906131","42":"1351586938899","43":"1351586971667","launch":false}
+	res.status(200).send(test);
+  });
+
   app.get("/vars", function(req, res) {
 	res.status(200).send(size_dict);
   });
+
 }
 
 
