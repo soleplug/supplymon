@@ -232,23 +232,16 @@ let site = 'yeezysupply.com'
 let access_token = shopify[site]['access_token']
 let unique_token = shopify[site]['unique_token']
 
-let monitor_proxies = ['http://Soleplug:312468Bh@172.98.167.128:24794',
-					'http://Soleplug:312468Bh@172.98.167.179:24794',
-					'http://Soleplug:312468Bh@172.98.167.183:24794',
-					'http://Soleplug:312468Bh@172.98.167.187:24794',
-					'http://Soleplug:312468Bh@172.98.167.191:24794',
-					'http://Soleplug:312468Bh@172.98.167.193:24794',
-					'http://Soleplug:312468Bh@172.98.167.195:24794',
-					'http://Soleplug:312468Bh@172.98.167.197:24794',
-					'http://Soleplug:312468Bh@172.98.167.199:24794',
-					'http://Soleplug:312468Bh@172.98.167.201:24794',
-					'http://Soleplug:312468Bh@172.98.167.203:24794',
-					'http://Soleplug:312468Bh@172.98.167.205:24794',
-					'http://Soleplug:312468Bh@172.98.167.207:24794',
-					'http://Soleplug:312468Bh@172.98.167.209:24794',
-					'http://Soleplug:312468Bh@172.98.167.52:24794',
-					'http://Soleplug:312468Bh@172.98.167.54:24794',
-					'http://Soleplug:312468Bh@172.98.167.99:24794']
+let monitor_proxies = ['http://Soleplug:312468Bh@172.84.124.16:50494',
+					'http://Soleplug:312468Bh@172.84.124.29:50494',
+					'http://Soleplug:312468Bh@172.84.125.23:50494',
+					'http://Soleplug:312468Bh@172.84.125.6:50494',
+					'http://Soleplug:312468Bh@172.84.126.4:50494',
+					'http://Soleplug:312468Bh@172.84.127.14:50494',
+					'http://Soleplug:312468Bh@172.85.104.137:50494',
+					'http://Soleplug:312468Bh@172.85.105.133:50494',
+					'http://Soleplug:312468Bh@207.66.90.116:50494',
+					'http://Soleplug:312468Bh@207.66.91.115:50494']
 
 let keywords = ['yeezy', 'butter']
 
